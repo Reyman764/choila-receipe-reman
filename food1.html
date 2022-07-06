@@ -10,12 +10,57 @@
             border: 2px solid black;
             border-collapse: collapse;
             border-color:grey;
-            border-radius:10px;
         }
+        th{
+            height: 50px;
+            width: 200px;
+            text-align: center;
+        }
+        td{
+            text-align: center;
+            padding: 5px;
+        }   
+        tr:nth-child(even) {
+            background-color:bisque
+        }
+        tr:hover{
+            background-color: aqua;
+        }
+        .li-style{
+            display: inline;
+        }
+        .stick{
+            position: -webkit-sticky;
+            position: sticky;
+            top: 0;
+        }
+        .relative{
+            position: relative;
+            left: 30px;
+        }
+        .fixed{
+            position: fixed;
+            bottom: 0;
+            right: 0;
+        }
+        .ul{
+            list-style-type: none;
+        }
+        
     </style>      
 </head>
 <br/>
 <body>
+    <div class="stick">
+       <b>choila.............</b>
+    </div>
+    <div class="relative">
+            <i>Scroll down for receipe.....</i>
+    </div>  
+    <div class="fixed">
+         <i>Follow for more.....</i>
+    </div>
+
     <i class="fa-brands fa-youtube" style="color: red; font-size: 60px;"></i>
     <h1 style="color:blue;">CHHWELA</h1>
 <hr/>
@@ -58,7 +103,7 @@
         <td>5 gram</td>
     </tr>
     <tr>
-        <td>Ginger Garlic Taste</td>
+        <td>Ginger Garlic Paste</td>
         <td>5 gram</td>
     </tr>
     <tr>
@@ -73,7 +118,6 @@
     <h2>INGREDIENTS AND QUANTITY</h2>
 </table>
     <h2>METHOD OF PREPERATION</h2>
-</table>
     <ul>
         <li>Chop the corainder leaf.</li>
         <li>boil buff pieces with tomato together.</li>
@@ -81,6 +125,18 @@
         <li>Roast the cumin seeds/jeera and blend it in a food blender.</li>
         <li>Take a bowl, add blended roasted cumin powder, chilli flakes, garlic leaves, Sichuan pepper, Tomato, Salt, Buff and GG paste. Add roasted mustard oil and mix it properly with hand.</li>
         <li>Garnish by adding corriander leaf.</li>
+    </ul>
+    <br/>
+    <h2>ITEMS</h2>
+    <ul class="ul">
+        <li class="li-style"><b>Buff,</b></li>
+        <li class="li-style"><b>Cumin Seed,</b></li>
+        <li class="li-style"><b>Tomato,</b></li>
+        <li class="li-style"><b>Coriander leaf,</b></li>
+        <li class="li-style"><b>Timur,</b></li>
+        <li class="li-style"><b>Ginger Garlic Paste,</b></li>
+        <li class="li-style"><b>Lemon Juice</b></li>
+        <li class="li-style"><b>& Roasted Mustard Oil</b><li>
     </ul>
     <a href="https://youtu.be/JXdDEZKM0RY">Click here for video.</a>
 </body>
